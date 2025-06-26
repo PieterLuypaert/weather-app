@@ -13,7 +13,7 @@ Deze Progressive Web App toont het actuele weer voor een opgegeven stad. Gebouwd
 
 1. Clone deze repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/PieterLuypaert/weather-app.git
    cd weather-app
    ```
 
