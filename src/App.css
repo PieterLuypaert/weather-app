@@ -238,18 +238,29 @@ body,
   flex-direction: column;
   gap: 10px;
   font-size: 1.08rem;
-  color: #333;
+  color: #555;
 }
 
 .weather-details-card div {
   margin-bottom: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .weather-details-card strong {
-  color: #4e54c8;
+  color: #555;
   font-weight: 600;
   min-width: 90px;
   display: inline-block;
+  margin-right: 8px;
+}
+
+.weather-details-card div > strong + span,
+.weather-details-card div > strong + text,
+.weather-details-card div > :not(strong) {
+  color: #555;
+  font-weight: 500;
 }
 
 @media (max-width: 900px) {
