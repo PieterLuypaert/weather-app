@@ -176,6 +176,7 @@ const App = () => {
           <div className="weather-side-desc">
             {weather && weather.weather ? weather.weather[0].description : ""}
           </div>
+          {}
           <div className="weather-details-card">
             <div>
               <strong>Sunrise:</strong>{" "}
@@ -210,5 +211,4 @@ const App = () => {
   );
 };
 
-export default App;
 export default App;
