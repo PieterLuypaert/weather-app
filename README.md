@@ -1,5 +1,7 @@
 # Weather App
 
+![Weather App Screenshot](./public/weather-app.png)
+
 This Progressive Web App displays the current weather for a given city. Built with React and the OpenWeatherMap API.
 
 ## Features
@@ -31,9 +33,5 @@ This Progressive Web App displays the current weather for a given city. Built wi
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Preview
-
-![Weather App Screenshot](./public/weather-app.png)
 
 Developed by Pieter
