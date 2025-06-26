@@ -1,32 +1,39 @@
 # Weather App
 
-Deze Progressive Web App toont het actuele weer voor een opgegeven stad. Gebouwd met React en de OpenWeatherMap API.
+This Progressive Web App displays the current weather for a given city. Built with React and the OpenWeatherMap API.
 
 ## Features
 
-- Zoek het weer op stad
-- Toon temperatuur, wind, luchtvochtigheid, beschrijving, zonsopgang/-ondergang, luchtdruk, zicht en bewolking
+- Search weather by city
+- Display temperature, wind, humidity, description, sunrise/sunset, pressure, visibility, and cloudiness
 - Responsive design
-- Live tijd en begroeting
+- Live time and greeting
 
-## Installatie
+## Installation
 
-1. Clone deze repository:
+1. Clone this repository:
+
    ```sh
    git clone https://github.com/PieterLuypaert/weather-app.git
    cd weather-app
    ```
 
-2. Installeer de dependencies:
+2. Install the dependencies:
+
    ```sh
    npm install
    ```
 
-3. Start de ontwikkelserver:
+3. Start the development server:
+
    ```sh
    npm start
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in je browser.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Developed by Pieter Luypaert
+## Preview
+
+![Weather App Screenshot](./public/weather-app.png)
+
+Developed by Pieter
