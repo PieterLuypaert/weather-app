@@ -21,7 +21,6 @@ const App = () => {
     }
   };
 
-  // Helper voor datum/tijd
   const getDateString = (dt, timezone) => {
     if (!dt || !timezone) return "";
     const date = new Date((dt + timezone) * 1000 - 3600 * 1000);
@@ -177,7 +176,8 @@ const App = () => {
           <div className="weather-side-desc">
             {weather && weather.weather ? weather.weather[0].description : ""}
           </div>
-          <div className="weather-side-details">
+          {}
+          <div className="weather-details-card">
             <div>
               <strong>Sunrise:</strong>{" "}
               {weather && weather.sys
